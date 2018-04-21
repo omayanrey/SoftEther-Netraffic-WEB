@@ -120,7 +120,7 @@ yum -y install openssl gcc make cmake vim tar squid java
 		
 if [ $os == 2 ];then
 echo "开始安装lnmp"
-wget -c http://mirrors.duapp.com/lnmp/lnmp1.3-full.tar.gz
+wget -c http://soft.vpser.net/lnmp/lnmp1.3-full.tar.gz
 tar zxf lnmp1.3-full.tar.gz
 cd lnmp1.3-full
 ./install.sh <<EOF
